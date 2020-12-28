@@ -70,17 +70,20 @@ public class WallsInit : MonoBehaviour
     void Update()
     {
         int players = PlayerPrefs.GetInt("numOfPlayers", 2);
-        if (players == 1 && started && !p1)
-        {
-            SceneManager.LoadScene("menu");
-        }
-        List<GameObject> p = new List<GameObject>() { p1, p2, p3, p4 };
-        var list = p.Where(x => x != null);
+        if(players == 1) {
+            if (started && !p1)
+            {
+                SceneManager.LoadScene("menu");
+            }
+        } else {
+            List<GameObject> p = new List<GameObject>() { p1, p2, p3, p4 };
+            var list = p.Where(x => x != null);
 
-        if (started && list.Count() <= 1)
-        {
-            Thread.Sleep(3000);
-            SceneManager.LoadScene("menu");
+            if (started && list.Count() <= 1)
+            {
+                Thread.Sleep(3000);
+                SceneManager.LoadScene("menu");
+            }
         }
     }
 }
