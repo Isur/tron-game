@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2af5966e-3dd2-4a1d-9061-0515b5b575b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AIMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AIMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Move.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Move.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WallsInit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WallsInit.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/AIMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NeuralNetwork.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Move.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WallsInit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tower.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mb1ORganCKGFBDVuncR1kzpCC3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2af5966e-3dd2-4a1d-9061-0515b5b575b2" name="Default Changelist" comment="" />
+      <created>1609747447627</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609747447627</updated>
+      <workItem from="1609747451921" duration="7747000" />
+      <workItem from="1609759782159" duration="324000" />
+      <workItem from="1609762104586" duration="469000" />
+      <workItem from="1609763997117" duration="1043000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1780" y="-252" width="2360" height="1240" key="VCS.FileHistoryDialog" timestamp="1609758699128">
+      <screen x="1680" y="-352" width="2560" height="1440" />
+    </state>
+    <state x="1780" y="-252" width="2360" height="1240" key="VCS.FileHistoryDialog/-1920.-102.1920.1200/1680.-352.2560.1440/0.0.1680.1050@1680.-352.2560.1440" timestamp="1609755871975" />
+    <state x="1780" y="-252" width="2360" height="1240" key="VCS.FileHistoryDialog/-1920.-79.1920.1177/1680.-352.2560.1440/0.23.1680.1027@1680.-352.2560.1440" timestamp="1609758699128" />
+    <state x="2633" y="0" width="654" height="735" key="find.popup" timestamp="1609757594664">
+      <screen x="1680" y="-352" width="2560" height="1440" />
+    </state>
+    <state x="2633" y="0" width="654" height="735" key="find.popup/-1920.-102.1920.1200/1680.-352.2560.1440/0.0.1680.1050@1680.-352.2560.1440" timestamp="1609757594664" />
+    <state x="2623" y="-23" width="672" height="678" key="search.everywhere.popup" timestamp="1609758823206">
+      <screen x="1680" y="-352" width="2560" height="1440" />
+    </state>
+    <state x="2623" y="-23" width="672" height="678" key="search.everywhere.popup/-1920.-102.1920.1200/1680.-352.2560.1440/0.0.1680.1050@1680.-352.2560.1440" timestamp="1609758823206" />
+  </component>
+</project>

@@ -41,27 +41,27 @@ public class WallsInit : MonoBehaviour
         p1 = Instantiate(player_1_prefab, new Vector2(0, 0), Quaternion.identity);
         Tower towerScript = tower.GetComponent<Tower>();
         var s1 = p1.GetComponent<Move>();
-        towerScript.Register(s1);
+        towerScript.Register(s1, true);
         if (players > 1)
         {
             Thread.Sleep(119);
             p2 = Instantiate(player_2_prefab, new Vector2(-10, 0), Quaternion.identity);
-            var s2 = p1.GetComponent<Move>();
-            towerScript.Register(s2);
+            var s2 = p2.GetComponent<Move>();
+            towerScript.Register(s2, false);
         }
         if (players > 2)
         {
             Thread.Sleep(121);
             p3 = Instantiate(player_3_prefab, new Vector2(-20, 0), Quaternion.identity);
-            var s3 = p1.GetComponent<Move>();
-            towerScript.Register(s3);
+            var s3 = p3.GetComponent<Move>();
+            towerScript.Register(s3, false);
         }
         if (players > 3)
         {
             Thread.Sleep(123);
             p4 = Instantiate(player_4_prefab, new Vector2(-30, 0), Quaternion.identity);
-            var s4 = p1.GetComponent<Move>();
-            towerScript.Register(s4);
+            var s4 = p4.GetComponent<Move>();
+            towerScript.Register(s4, false);
         }
 
         started = true;
@@ -70,13 +70,16 @@ public class WallsInit : MonoBehaviour
     void Update()
     {
         int players = PlayerPrefs.GetInt("numOfPlayers", 2);
-        if(players == 1) {
+        if (players == 1)
+        {
             if (started && !p1)
             {
                 SceneManager.LoadScene("menu");
             }
-        } else {
-            List<GameObject> p = new List<GameObject>() { p1, p2, p3, p4 };
+        }
+        else
+        {
+            List<GameObject> p = new List<GameObject>() {p1, p2, p3, p4};
             var list = p.Where(x => x != null);
 
             if (started && list.Count() <= 1)

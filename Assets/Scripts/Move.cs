@@ -2,6 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum Direction
+{
+    UP=0,
+    DOWN=1,
+    LEFT=2,
+    RIGHT=3
+}
+
 public class Move : MonoBehaviour
 {
     public KeyCode upKey;
@@ -10,10 +18,10 @@ public class Move : MonoBehaviour
     public KeyCode leftKey;
     public float speed = 16f;
     public GameObject wallPrefab;
-    // public GameObject tower;
     protected Collider2D wall;
     protected Vector2 lastWallEnd;
-    protected int currDir;
+    protected Direction currDir;
+    protected Direction lastSuggestion;
 
     public virtual void Start()
     {
@@ -27,21 +35,21 @@ public class Move : MonoBehaviour
 
     void UserMove()
     {
-        if (Input.GetKeyDown(upKey))
+        if (Input.GetKeyDown(upKey) && currDir != Direction.DOWN)
         {
             MoveUp();
         }
-        else if (Input.GetKeyDown(downKey))
+        else if (Input.GetKeyDown(downKey) && currDir != Direction.UP)
         {
             MoveDown();
         }
-        else if (Input.GetKeyDown(rightKey))
-        {
-            MoveRight();
-        }
-        else if (Input.GetKeyDown(leftKey))
+        else if (Input.GetKeyDown(leftKey) && currDir != Direction.RIGHT)
         {
             MoveLeft();
+        }
+        else if (Input.GetKeyDown(rightKey) && currDir != Direction.LEFT)
+        {
+            MoveRight();
         }
         fitColliderBetween(wall, lastWallEnd, transform.position);
     }
@@ -50,25 +58,25 @@ public class Move : MonoBehaviour
     {
         GetComponent<Rigidbody2D>().velocity = -Vector2.right * speed;
         spawnWall();
-        currDir = 2;
+        currDir = Direction.LEFT;
     }
     protected void MoveRight()
     {
         GetComponent<Rigidbody2D>().velocity = Vector2.right * speed;
         spawnWall();
-        currDir = 3;
+        currDir = Direction.RIGHT;
     }
     protected void MoveUp()
     {
         GetComponent<Rigidbody2D>().velocity = Vector2.up * speed;
         spawnWall();
-        currDir = 0;
+        currDir = Direction.UP;
     }
     protected void MoveDown()
     {
         GetComponent<Rigidbody2D>().velocity = -Vector2.up * speed;
         spawnWall();
-        currDir = 1;
+        currDir = Direction.DOWN;
     }
 
     void spawnWall()
@@ -104,7 +112,23 @@ public class Move : MonoBehaviour
         }
     }
 
-    public void GetSuggestion(string s) {
+    public void SetSuggestion(Direction s) {
         print(name + "  tower info:  " + s);
+        this.lastSuggestion = s;
+    }
+
+    public Direction GetSuggestion()
+    {
+        return this.lastSuggestion;
+    }
+
+    public Direction GetDirection()
+    {
+        return this.currDir;
+    }
+
+    public Transform GetPosition()
+    {
+        return transform;
     }
 }

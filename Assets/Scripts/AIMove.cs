@@ -17,12 +17,12 @@ public class AIMove : Move
     }
 
     void NewMove() {
-        int d = rand.Next(4);
+        var d = (int)GetSuggestion();
         while(
-            (d == 0 && currDir == 1) ||
-            (d == 1 && currDir == 0) ||
-            (d == 2 && currDir == 3) ||
-            (d == 3 && currDir == 2)) {
+            (d == 0 && currDir == Direction.DOWN) ||
+            (d == 1 && currDir == Direction.UP) ||
+            (d == 2 && currDir == Direction.RIGHT) ||
+            (d == 3 && currDir == Direction.LEFT)) {
                 d = rand.Next(4);
             }
         

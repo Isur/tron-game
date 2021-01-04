@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="125f3c2a-d93c-42e2-910a-dcc76d7e504c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/AIMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AIMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Move.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Move.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WallsInit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WallsInit.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/NeuralNetwork.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AIMove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WallsInit.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Move.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MainMenuController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tower.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/NeuralNetwork.cs" />
+        <option value="$PROJECT_DIR$/AIMove.cs" />
+        <option value="$PROJECT_DIR$/WallsInit.cs" />
+        <option value="$PROJECT_DIR$/Move.cs" />
+        <option value="$PROJECT_DIR$/Tower.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mZY3wvjTJg2qFnohvSq2hYCMKL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="125f3c2a-d93c-42e2-910a-dcc76d7e504c" name="Default Changelist" comment="" />
+      <created>1609702390846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609702390846</updated>
+      <workItem from="1609702394882" duration="8713000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="605" y="362" width="468" height="483" key="#com.intellij.tools.ToolEditorDialog" timestamp="1609746926072">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="605" y="362" width="468" height="483" key="#com.intellij.tools.ToolEditorDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1609746926072" />
+    <state x="341" y="164" key="SettingsEditor" timestamp="1609747114677">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1609747114677" />
+  </component>
+</project>
